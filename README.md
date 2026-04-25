@@ -8,7 +8,7 @@
 
 # Payment Method Surcharge for Magento 2
 
-`Rameera_PaymentMethodSurcharge` adds configurable surcharge fees by payment method and displays them across cart, checkout, order totals, invoice, credit memo, PDF, and sales email outputs.
+`MageMatch_PaymentMethodSurcharge` adds configurable surcharge fees by payment method and displays them across cart, checkout, order totals, invoice, credit memo, PDF, and sales email outputs.
 
 ## Features
 
@@ -27,25 +27,25 @@
 ## Package Name
 
 - Packagist package: `arjundhi/magento2-payment-method-surcharge`
-- Module name (backward compatible): `Rameera_PaymentMethodSurcharge`
+- Module name (backward compatible): `MageMatch_PaymentMethodSurcharge`
 
 ## Installation
 
 > Important: use **one installation mode only**.
 >
-> - If installed via Composer, do **not** keep a copy in `app/code/Rameera/PaymentMethodSurcharge`.
+> - If installed via Composer, do **not** keep a copy in `app/code/MageMatch/PaymentMethodSurcharge`.
 > - If using `app/code`, do **not** install `arjundhi/magento2-payment-method-surcharge` via Composer.
 
 ### Install from app/code
 
 Place the module under:
 
-`app/code/Rameera/PaymentMethodSurcharge`
+`app/code/MageMatch/PaymentMethodSurcharge`
 
 Then run:
 
 ```bash
-php bin/magento module:enable Rameera_PaymentMethodSurcharge
+php bin/magento module:enable MageMatch_PaymentMethodSurcharge
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
@@ -54,7 +54,7 @@ php bin/magento cache:flush
 
 ```bash
 composer require arjundhi/magento2-payment-method-surcharge
-php bin/magento module:enable Rameera_PaymentMethodSurcharge
+php bin/magento module:enable MageMatch_PaymentMethodSurcharge
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
@@ -94,13 +94,13 @@ composer require arjundhi/magento2-payment-method-surcharge:"dev-main@dev"
 
 If you see duplicate module registration errors, verify you do not have both paths at the same time:
 
-- `app/code/Rameera/PaymentMethodSurcharge`
+- `app/code/MageMatch/PaymentMethodSurcharge`
 - `vendor/arjundhi/magento2-payment-method-surcharge`
 
 Fix (Composer-based install):
 
 ```bash
-rm -rf app/code/Rameera/PaymentMethodSurcharge
+rm -rf app/code/MageMatch/PaymentMethodSurcharge
 composer install
 php bin/magento setup:upgrade
 php bin/magento cache:flush
