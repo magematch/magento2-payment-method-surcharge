@@ -6,8 +6,6 @@
 > Part of the [MageMatch](https://magematch.com) 
 > developer ecosystem
 
-# Payment Method Surcharge for Magento 2
-
 `MageMatch_PaymentMethodSurcharge` adds configurable surcharge fees by payment method and displays them across cart, checkout, order totals, invoice, credit memo, PDF, and sales email outputs.
 
 ## Features
@@ -19,45 +17,10 @@
 - Includes invoice/credit memo/PDF/email total integrations.
 - Includes admin order-create support.
 
-## Compatibility
-
-- Magento Open Source / Adobe Commerce `2.4.4` and later in the `2.4.x` line.
-- PHP `8.1`, `8.2`, `8.3`, and `8.4`.
-
 ## Package Name
 
 - Packagist package: `magematch/magento2-payment-method-surcharge`
 - Module name (backward compatible): `MageMatch_PaymentMethodSurcharge`
-
-## Installation
-
-> Important: use **one installation mode only**.
->
-> - If installed via Composer, do **not** keep a copy in `app/code/MageMatch/PaymentMethodSurcharge`.
-> - If using `app/code`, do **not** install `magematch/magento2-payment-method-surcharge` via Composer.
-
-### Install from app/code
-
-Place the module under:
-
-`app/code/MageMatch/PaymentMethodSurcharge`
-
-Then run:
-
-```bash
-php bin/magento module:enable MageMatch_PaymentMethodSurcharge
-php bin/magento setup:upgrade
-php bin/magento cache:flush
-```
-
-### Install with Composer
-
-```bash
-composer require magematch/magento2-payment-method-surcharge
-php bin/magento module:enable MageMatch_PaymentMethodSurcharge
-php bin/magento setup:upgrade
-php bin/magento cache:flush
-```
 
 ## Configuration
 
@@ -105,10 +68,6 @@ composer install
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
-
-## License
-
-This project uses `GPL-3.0-or-later` (compatible with the original upstream licensing).
 
 ---
 ## Installation
