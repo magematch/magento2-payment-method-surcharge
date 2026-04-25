@@ -26,7 +26,7 @@
 
 ## Package Name
 
-- Packagist package: `arjundhi/magento2-payment-method-surcharge`
+- Packagist package: `magematch/magento2-payment-method-surcharge`
 - Module name (backward compatible): `MageMatch_PaymentMethodSurcharge`
 
 ## Installation
@@ -34,7 +34,7 @@
 > Important: use **one installation mode only**.
 >
 > - If installed via Composer, do **not** keep a copy in `app/code/MageMatch/PaymentMethodSurcharge`.
-> - If using `app/code`, do **not** install `arjundhi/magento2-payment-method-surcharge` via Composer.
+> - If using `app/code`, do **not** install `magematch/magento2-payment-method-surcharge` via Composer.
 
 ### Install from app/code
 
@@ -53,7 +53,7 @@ php bin/magento cache:flush
 ### Install with Composer
 
 ```bash
-composer require arjundhi/magento2-payment-method-surcharge
+composer require magematch/magento2-payment-method-surcharge
 php bin/magento module:enable MageMatch_PaymentMethodSurcharge
 php bin/magento setup:upgrade
 php bin/magento cache:flush
@@ -81,13 +81,13 @@ It validates Composer metadata, PHP syntax, and XML well-formedness.
 Stable production install:
 
 ```bash
-composer require arjundhi/magento2-payment-method-surcharge:^1.0
+composer require magematch/magento2-payment-method-surcharge:^1.0
 ```
 
 Staging/dev install (before first stable tag is visible):
 
 ```bash
-composer require arjundhi/magento2-payment-method-surcharge:"dev-main@dev"
+composer require magematch/magento2-payment-method-surcharge:"dev-main@dev"
 ```
 
 ## Troubleshooting: duplicate module registration
@@ -95,7 +95,7 @@ composer require arjundhi/magento2-payment-method-surcharge:"dev-main@dev"
 If you see duplicate module registration errors, verify you do not have both paths at the same time:
 
 - `app/code/MageMatch/PaymentMethodSurcharge`
-- `vendor/arjundhi/magento2-payment-method-surcharge`
+- `vendor/magematch/magento2-payment-method-surcharge`
 
 Fix (Composer-based install):
 

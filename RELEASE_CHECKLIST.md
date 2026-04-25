@@ -26,6 +26,6 @@ Use this checklist before publishing a new GitHub release.
 
 ## Install Verification Matrix
 
-- Verify stable install works: `composer require arjundhi/magento2-payment-method-surcharge:^1.0`.
-- Verify dev fallback works for pre-tag testing: `composer require arjundhi/magento2-payment-method-surcharge:"dev-main@dev"`.
+- Verify stable install works: `composer require magematch/magento2-payment-method-surcharge:^1.0`.
+- Verify dev fallback works for pre-tag testing: `composer require magematch/magento2-payment-method-surcharge:"dev-main@dev"`.
 - Run validation against PHP `8.2` and `8.4` (same matrix as CI).
