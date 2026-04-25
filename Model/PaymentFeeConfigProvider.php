@@ -15,15 +15,15 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Model;
+namespace MageMatch\PaymentMethodSurcharge\Model;
 
 use Magento\Checkout\Model\ConfigProviderInterface;
-use Rameera\PaymentMethodSurcharge\Helper\Data;
+use MageMatch\PaymentMethodSurcharge\Helper\Data;
 
 class PaymentFeeConfigProvider implements ConfigProviderInterface
 {

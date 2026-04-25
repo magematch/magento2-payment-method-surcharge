@@ -15,19 +15,19 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Model\Total;
+namespace MageMatch\PaymentMethodSurcharge\Model\Total;
 
 use Magento\Quote\Model\Quote\Address\Total;
-use Rameera\PaymentMethodSurcharge\Model\Calculation\Calculator\CalculatorInterface;
+use MageMatch\PaymentMethodSurcharge\Model\Calculation\Calculator\CalculatorInterface;
 use Magento\Quote\Model\Quote;
 use Magento\Quote\Model\Quote\Address;
 use Magento\Quote\Api\Data\ShippingAssignmentInterface;
-use Rameera\PaymentMethodSurcharge\Helper\Data as FeeHelper;
+use MageMatch\PaymentMethodSurcharge\Helper\Data as FeeHelper;
 use Magento\Tax\Model\Calculation;
 
 class Fee extends Address\Total\AbstractTotal

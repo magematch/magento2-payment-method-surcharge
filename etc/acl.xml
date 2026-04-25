@@ -15,7 +15,7 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
@@ -27,7 +27,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Rameera_PaymentMethodSurcharge::paymentfee_settings" title="Lof Paymentfee" translate="title" sortOrder="111"/>
+                            <resource id="MageMatch_PaymentMethodSurcharge::paymentfee_settings" title="Lof Paymentfee" translate="title" sortOrder="111"/>
                         </resource>
                     </resource>
                 </resource>

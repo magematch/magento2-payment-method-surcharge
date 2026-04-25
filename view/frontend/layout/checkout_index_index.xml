@@ -15,7 +15,7 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
@@ -35,7 +35,7 @@
                                                 <item name="totals" xsi:type="array">
                                                     <item name="children" xsi:type="array">
                                                        <item name="lof_paymentfee" xsi:type="array">
-                                                            <item name="component"  xsi:type="string">Rameera_PaymentMethodSurcharge/js/view/cart/totals/fee</item>
+                                                            <item name="component"  xsi:type="string">MageMatch_PaymentMethodSurcharge/js/view/cart/totals/fee</item>
                                                             <item name="sortOrder" xsi:type="string">20</item>
                                                         </item>
                                                     </item>

@@ -15,19 +15,19 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Block\Adminhtml\System\Form\Field;
+namespace MageMatch\PaymentMethodSurcharge\Block\Adminhtml\System\Form\Field;
 
 use Magento\Backend\Block\Template\Context;
 use Magento\Config\Block\System\Config\Form\Field\FieldArray\AbstractFieldArray;
 use Magento\Framework\DataObject;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\View\Element\BlockInterface;
-use Rameera\PaymentMethodSurcharge\Model\Config\Source\ActiveMethods;
+use MageMatch\PaymentMethodSurcharge\Model\Config\Source\ActiveMethods;
 
 class PaymentFee extends AbstractFieldArray
 {

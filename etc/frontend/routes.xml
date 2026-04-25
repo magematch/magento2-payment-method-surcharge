@@ -15,7 +15,7 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
@@ -23,7 +23,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
         <route id="paymentfee" frontName="paymentfee">
-            <module name="Rameera_PaymentMethodSurcharge" />
+            <module name="MageMatch_PaymentMethodSurcharge" />
         </route>
     </router>
 </config>

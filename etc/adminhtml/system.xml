@@ -15,7 +15,7 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
@@ -29,7 +29,7 @@
             <class>separator-top</class>
             <label>Advanced Payment Fee</label>
             <tab>landofcoder</tab>
-            <resource>Rameera_PaymentMethodSurcharge::paymentfee_settings</resource>
+            <resource>MageMatch_PaymentMethodSurcharge::paymentfee_settings</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Settings</label>
                 <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -61,18 +61,18 @@
                 <label>Payment Fee Settings</label>
                 <field id="pricetype" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Price Type</label>
-                    <source_model>Rameera\PaymentMethodSurcharge\Model\Config\Source\PriceType</source_model>
+                    <source_model>MageMatch\PaymentMethodSurcharge\Model\Config\Source\PriceType</source_model>
                 </field>
                 <field id="include_shipping" translate="label" type="select" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Include shipping in subtotal </label>
-                    <source_model>Rameera\PaymentMethodSurcharge\Model\Config\Source\Calculation</source_model>
+                    <source_model>MageMatch\PaymentMethodSurcharge\Model\Config\Source\Calculation</source_model>
                     <depends>
                         <field id="pricetype">1</field>
                     </depends>
                 </field>
                 <field id="include_discount" translate="label" type="select" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Include discount in subtotal</label>
-                    <source_model>Rameera\PaymentMethodSurcharge\Model\Config\Source\Calculation</source_model>
+                    <source_model>MageMatch\PaymentMethodSurcharge\Model\Config\Source\Calculation</source_model>
                     <depends>
                         <field id="pricetype">1</field>
                     </depends>
@@ -93,7 +93,7 @@
                 </field>
                 <field id="paymentfee" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Payment Method Fee</label>
-                    <frontend_model>Rameera\PaymentMethodSurcharge\Block\Adminhtml\System\Form\Field\PaymentFee</frontend_model>
+                    <frontend_model>MageMatch\PaymentMethodSurcharge\Block\Adminhtml\System\Form\Field\PaymentFee</frontend_model>
                     <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
                 </field>
                 <field id="customers" translate="label" type="multiselect" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">

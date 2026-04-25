@@ -15,18 +15,18 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Helper;
+namespace MageMatch\PaymentMethodSurcharge\Helper;
 
 use Magento\Customer\Model\Session as CustomerSession;
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Quote\Model\Quote;
 use Magento\Store\Model\ScopeInterface;
-use Rameera\PaymentMethodSurcharge\Model\Config\Source\ConfigData;
+use MageMatch\PaymentMethodSurcharge\Model\Config\Source\ConfigData;
 
 class Data extends AbstractHelper
 {

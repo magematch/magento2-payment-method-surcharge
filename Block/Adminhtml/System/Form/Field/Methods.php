@@ -15,12 +15,12 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Block\Adminhtml\System\Form\Field;
+namespace MageMatch\PaymentMethodSurcharge\Block\Adminhtml\System\Form\Field;
 
 use Magento\Framework\View\Element\Context;
 use Magento\Framework\View\Element\Html\Select;

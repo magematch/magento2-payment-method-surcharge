@@ -15,7 +15,7 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
@@ -23,17 +23,17 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Sales:etc/sales.xsd">
     <section name="quote">
         <group name="totals">
-            <item name="payment_fee" instance="Rameera\PaymentMethodSurcharge\Model\Total\Fee" sort_order="500"/>
+            <item name="payment_fee" instance="MageMatch\PaymentMethodSurcharge\Model\Total\Fee" sort_order="500"/>
         </group>
     </section>
     <section name="order_invoice">
         <group name="totals">
-            <item name="payment_fee" instance="Rameera\PaymentMethodSurcharge\Model\Invoice\Total\Fee" sort_order="305"/>
+            <item name="payment_fee" instance="MageMatch\PaymentMethodSurcharge\Model\Invoice\Total\Fee" sort_order="305"/>
         </group>
     </section>
     <section name="order_creditmemo">
         <group name="totals">
-            <item name="payment_fee" instance="Rameera\PaymentMethodSurcharge\Model\Creditmemo\Total\Fee" sort_order="305"/>
+            <item name="payment_fee" instance="MageMatch\PaymentMethodSurcharge\Model\Creditmemo\Total\Fee" sort_order="305"/>
         </group>
     </section>
 </config>

@@ -15,16 +15,16 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Model\Creditmemo\Total;
+namespace MageMatch\PaymentMethodSurcharge\Model\Creditmemo\Total;
 
 use Magento\Sales\Model\Order\Creditmemo;
 use Magento\Sales\Model\Order\Creditmemo\Total\AbstractTotal;
-use Rameera\PaymentMethodSurcharge\Helper\Data;
+use MageMatch\PaymentMethodSurcharge\Helper\Data;
 
 class Fee extends AbstractTotal
 {

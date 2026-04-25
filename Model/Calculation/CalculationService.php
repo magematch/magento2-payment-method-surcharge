@@ -15,17 +15,17 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Model\Calculation;
+namespace MageMatch\PaymentMethodSurcharge\Model\Calculation;
 
 use Magento\Framework\Exception\ConfigurationMismatchException;
 use Magento\Quote\Model\Quote;
-use Rameera\PaymentMethodSurcharge\Helper\Data as FeeHelper;
-use Rameera\PaymentMethodSurcharge\Model\Calculation\Calculator\CalculatorInterface;
+use MageMatch\PaymentMethodSurcharge\Helper\Data as FeeHelper;
+use MageMatch\PaymentMethodSurcharge\Model\Calculation\Calculator\CalculatorInterface;
 use Psr\Log\LoggerInterface;
 
 class CalculationService implements CalculatorInterface

@@ -15,18 +15,18 @@
  * version in the future.
  *
  * @category   Landofcoder
- * @package    Rameera_PaymentMethodSurcharge
+ * @package    MageMatch_PaymentMethodSurcharge
  * @copyright  Copyright (c) 2020 Landofcoder (https://landofcoder.com/)
  * @license    https://landofcoder.com/LICENSE-1.0.html
  */
 
-namespace Rameera\PaymentMethodSurcharge\Model\Pdf;
+namespace MageMatch\PaymentMethodSurcharge\Model\Pdf;
 
 use Magento\Sales\Model\Order\Pdf\Total\DefaultTotal;
 use Magento\Tax\Helper\Data;
 use Magento\Tax\Model\Calculation;
 use Magento\Tax\Model\ResourceModel\Sales\Order\Tax\CollectionFactory;
-use Rameera\PaymentMethodSurcharge\Helper\Data as FeeHelper;
+use MageMatch\PaymentMethodSurcharge\Helper\Data as FeeHelper;
 
 class Fee extends DefaultTotal
 {
